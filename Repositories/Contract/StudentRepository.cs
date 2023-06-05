@@ -2,7 +2,7 @@
 
 namespace CRUD_ESTUDANTES.Repositories.Contract;
 
-public interface StudentRepository : IBaseRepository<Student>
+public class StudentRepository : BaseRepository<Student>, IStudentRepository
 {
     
 }
