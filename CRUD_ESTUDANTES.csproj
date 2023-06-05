@@ -26,7 +26,7 @@
     <Compile Remove="MyApi\WebApi\Controllers\CourseController.cs" />
     <Compile Remove="MyApi\WebApi\Controllers\WeatherForecastController.cs" />
     <Compile Remove="MyApi\**" />
-    <Compile Remove="Repositories\StudentRepository.cs" />
+    <Compile Remove="Repositories\Contract\StudentRepository.cs" />
   </ItemGroup>
 
   <ItemGroup>

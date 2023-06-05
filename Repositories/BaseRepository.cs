@@ -1,7 +1,4 @@
 ﻿using System.Linq.Expressions;
-using Azure.Core;
-using CRUD_ESTUDANTES.DTO.Request;
-using CRUD_ESTUDANTES.DTO.Response;
 using CRUD_ESTUDANTES.Entities;
 using CRUD_ESTUDANTES.Persistence;
 using CRUD_ESTUDANTES.Repositories.Contract;
@@ -25,9 +22,9 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
       return  await RepoContext.Set<T>().ToListAsync();
     }
 
-    public async Task<T?> GetByCondition(Expression<Func<T, bool>> expression)
+    public async Task<T?> GetById(Guid id)
     {
-        return await RepoContext.Set<T>().FindAsync(expression);
+        return await RepoContext.Set<T>().FindAsync(id);
 
     }
 
@@ -45,10 +42,16 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         return entity;
     }
 
-    public async Task<T> Delete(T entity)
+    public async Task<T> Delete(Guid id)
     {
-        RepoContext.Set<T>().Update(entity);
-        await RepoContext.SaveChangesAsync();
+          T? entity = await RepoContext.Set<T>().FindAsync(id);
+
+          if (entity != null)
+          {
+              RepoContext.Set<T>().Remove(entity);
+              await RepoContext.SaveChangesAsync();
+          }
+       
         return entity;
     }
 }
