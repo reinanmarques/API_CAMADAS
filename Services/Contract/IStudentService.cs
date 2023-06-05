@@ -9,6 +9,6 @@ public interface IStudentService
     List<StudentResponse> GetAll();
     StudentResponse GetById(Guid id);
     StudentResponse Save(StudentInsert? dto);
-    StudentResponse Update(StudentUpdate? dto);
+    StudentResponse Update(StudentUpdate? dto, Guid id);
     void Delete(Guid id);
 }
