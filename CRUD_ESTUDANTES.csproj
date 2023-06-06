@@ -27,6 +27,10 @@
     <Compile Remove="MyApi\WebApi\Controllers\WeatherForecastController.cs" />
     <Compile Remove="MyApi\**" />
     <Compile Remove="Repositories\Contract\StudentRepository.cs" />
+    <Compile Remove="Data\CrudDbContext.cs" />
+    <Compile Remove="MIgrations\20230606142407_InitialCreate.cs" />
+    <Compile Remove="MIgrations\20230606142407_InitialCreate.Designer.cs" />
+    <Compile Remove="MIgrations\RepositoryContextModelSnapshot.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,6 +49,10 @@
     <None Remove="Models\**" />
     <None Remove="Mocks\**" />
     <None Remove="MyApi\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MIgrations\" />
   </ItemGroup>
 
 </Project>
