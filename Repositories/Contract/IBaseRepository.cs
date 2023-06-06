@@ -8,5 +8,5 @@ public interface IBaseRepository<T>
      Task<T?> GetById(Guid id);
     Task<T> Save(T entity);
     Task<T> Update(T entity);
-    Task<T> Delete(Guid id);
+   void Delete(Guid id);
 }
