@@ -47,16 +47,15 @@ public class StudentService : IStudentService
 
     public StudentResponse Save(StudentInsert? dto)
     {
-        
         try
-        {
-            Student? student = new Student(dto.Name, dto.Course);
+        { 
+            Student student = new Student(dto.Name, dto.Course);
            student = StudentRepository.Save(student).Result;
            return new StudentResponse(student);
         }
         catch (Exception e)
         {
-            throw new Exception("entity not found");
+            throw new Exception(e.Message);
         }
     }
 
