@@ -31,28 +31,38 @@
     <Compile Remove="MIgrations\20230606142407_InitialCreate.cs" />
     <Compile Remove="MIgrations\20230606142407_InitialCreate.Designer.cs" />
     <Compile Remove="MIgrations\RepositoryContextModelSnapshot.cs" />
+    <Compile Remove="MIgrations\20230606175614_First.cs" />
+    <Compile Remove="MIgrations\20230606175614_First.Designer.cs" />
+    <Compile Remove="MIgrations\20230606180119_InitialCreate.cs" />
+    <Compile Remove="MIgrations\20230606180119_InitialCreate.Designer.cs" />
+    <Compile Remove="MIgrations\20230607123647_adicionandoCampos.cs" />
+    <Compile Remove="MIgrations\20230607123647_adicionandoCampos.Designer.cs" />
+    <Compile Remove="MIgrations\**" />
+    <Compile Remove="Data\Migrations\**" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="Models\**" />
     <EmbeddedResource Remove="Mocks\**" />
     <EmbeddedResource Remove="MyApi\**" />
+    <EmbeddedResource Remove="MIgrations\**" />
+    <EmbeddedResource Remove="Data\Migrations\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="Models\**" />
     <Content Remove="Mocks\**" />
     <Content Remove="MyApi\**" />
+    <Content Remove="MIgrations\**" />
+    <Content Remove="Data\Migrations\**" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Models\**" />
     <None Remove="Mocks\**" />
     <None Remove="MyApi\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="MIgrations\" />
+    <None Remove="MIgrations\**" />
+    <None Remove="Data\Migrations\**" />
   </ItemGroup>
 
 </Project>

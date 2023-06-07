@@ -42,14 +42,9 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         return entity;
     }
 
-    public async void Delete(Guid id)
+    public void Delete(T entity)
     {
-          T? entity = await RepoContext.Set<T>().FindAsync(id);
-
-          if (entity != null)
-          {
-              RepoContext.Set<T>().Remove(entity);
-              await RepoContext.SaveChangesAsync();
-          }
+         RepoContext.Set<T>().Remove(entity);
+         RepoContext.SaveChanges();
     }
 }

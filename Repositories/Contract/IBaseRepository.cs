@@ -5,8 +5,8 @@ namespace CRUD_ESTUDANTES.Repositories.Contract;
 public interface IBaseRepository<T>
 {
     Task<List<T>> GetAll();
-     Task<T?> GetById(Guid id);
+    Task<T?> GetById(Guid id);
     Task<T> Save(T entity);
     Task<T> Update(T entity);
-   void Delete(Guid id);
+    void Delete(T entity);
 }

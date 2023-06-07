@@ -26,7 +26,7 @@ public class StudentService : IStudentService
         }
         catch (Exception e)
         {
-            throw new Exception("get all fail");
+            throw new Exception(e.Message);
         }
     }
 
@@ -49,7 +49,7 @@ public class StudentService : IStudentService
     {
         try
         { 
-            Student student = new Student(dto.Name, dto.Course);
+            Student student = new Student(dto.Name, dto.Course, dto.Email, dto.Password);
            student = StudentRepository.Save(student).Result;
            return new StudentResponse(student);
         }
@@ -64,20 +64,23 @@ public class StudentService : IStudentService
         try
         {
             Student? entity = StudentRepository.GetById(id).Result;
-            entity.Name = dto.Name;
-            entity.Course = dto.Course;
-            entity  = StudentRepository.Update(entity).Result;
-            return new StudentResponse(entity);
+            
+                entity.Name = dto.Name;
+                entity.Course = dto.Course;
+                entity = StudentRepository.Update(entity).Result;
+                return new StudentResponse(entity);
+            
         }
         catch (Exception e)
         {
             throw new Exception("Não atualizado");
         }
-        
+ 
     }
 
     public void Delete(Guid id)
     {
-        StudentRepository.Delete(id);
+        Student? student = StudentRepository.GetById(id).Result;
+        if (student != null) StudentRepository.Delete(student);
     }
 }

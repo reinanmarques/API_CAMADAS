@@ -12,8 +12,26 @@ namespace CRUD_ESTUDANTES.Persistence;
 
         public DbSet<Student>? Students { get; set; }
         
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+       protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.Entity<Student>(e =>
         {
-            modelBuilder.Entity<Student>();
-        }
-    }
+            e.HasKey(es => es.Id);
+
+            e.Property(es => es.Name)
+                .IsRequired(true)
+                .HasMaxLength(200);
+
+                  e.Property(es => es.Course)
+                .IsRequired(true)
+                .HasMaxLength(200);
+
+             e.Property(es => es.Email)
+                .IsRequired(true)
+                .HasMaxLength(200);
+
+                e.Property(es => es.Password)
+                .IsRequired(true)
+                .HasMaxLength(200);   
+        });
+    }}
