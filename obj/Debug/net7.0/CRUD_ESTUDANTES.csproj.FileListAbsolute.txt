@@ -1,77 +1,76 @@
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\appsettings.json
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\CRUD_ESTUDANTES.exe
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\CRUD_ESTUDANTES.deps.json
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\CRUD_ESTUDANTES.runtimeconfig.json
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\CRUD_ESTUDANTES.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\CRUD_ESTUDANTES.pdb
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Humanizer.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.csproj.AssemblyReference.cache
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.AssemblyInfoInputs.cache
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.AssemblyInfo.cs
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.csproj.CoreCompileInputs.cache
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\staticwebassets\msbuild.CRUD_ESTUDANTES.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\staticwebassets\msbuild.build.CRUD_ESTUDANTES.props
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CRUD_ESTUDANTES.props
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CRUD_ESTUDANTES.props
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\scopedcss\bundle\CRUD_ESTUDANTES.styles.css
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.csproj.CopyComplete
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\refint\CRUD_ESTUDANTES.dll
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.pdb
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\CRUD_ESTUDANTES.genruntimeconfig.cache
-C:\Users\SEDUC-SUDS\RiderProjects\CRUD_ESTUDANTES\obj\Debug\net7.0\ref\CRUD_ESTUDANTES.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\appsettings.json
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.exe
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.deps.json
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.runtimeconfig.json
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.pdb
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.csproj.AssemblyReference.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.AssemblyInfoInputs.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.AssemblyInfo.cs
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.csproj.CoreCompileInputs.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\staticwebassets\msbuild.CRUD_ESTUDANTES.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\staticwebassets\msbuild.build.CRUD_ESTUDANTES.props
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.CRUD_ESTUDANTES.props
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.CRUD_ESTUDANTES.props
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\scopedcss\bundle\CRUD_ESTUDANTES.styles.css
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.csproj.CopyComplete
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\refint\CRUD_ESTUDANTES.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.pdb
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.genruntimeconfig.cache
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\ref\CRUD_ESTUDANTES.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Humanizer.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.CodeDom.dll

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var conncetionString = builder.Configuration.GetConnectionString("CrudEstudentCs");
+var conncetionString = builder.Configuration.GetConnectionString("DevCasa");
 builder.Services.AddDbContext<RepositoryContext>(o => o.UseSqlServer(conncetionString));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

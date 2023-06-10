@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SEDUC-SUDS\\RiderProjects\\CRUD_ESTUDANTES\\CRUD_ESTUDANTES.csproj": {}
+    "C:\\Users\\wesle\\OneDrive\\Área de Trabalho\\API_CAMADAS\\CRUD_ESTUDANTES.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SEDUC-SUDS\\RiderProjects\\CRUD_ESTUDANTES\\CRUD_ESTUDANTES.csproj": {
+    "C:\\Users\\wesle\\OneDrive\\Área de Trabalho\\API_CAMADAS\\CRUD_ESTUDANTES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SEDUC-SUDS\\RiderProjects\\CRUD_ESTUDANTES\\CRUD_ESTUDANTES.csproj",
+        "projectUniqueName": "C:\\Users\\wesle\\OneDrive\\Área de Trabalho\\API_CAMADAS\\CRUD_ESTUDANTES.csproj",
         "projectName": "CRUD_ESTUDANTES",
-        "projectPath": "C:\\Users\\SEDUC-SUDS\\RiderProjects\\CRUD_ESTUDANTES\\CRUD_ESTUDANTES.csproj",
-        "packagesPath": "C:\\Users\\SEDUC-SUDS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SEDUC-SUDS\\RiderProjects\\CRUD_ESTUDANTES\\obj\\",
+        "projectPath": "C:\\Users\\wesle\\OneDrive\\Área de Trabalho\\API_CAMADAS\\CRUD_ESTUDANTES.csproj",
+        "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wesle\\OneDrive\\Área de Trabalho\\API_CAMADAS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\SEDUC-SUDS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,17 +45,9 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[7.0.5, )"
             },
@@ -68,7 +57,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -90,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

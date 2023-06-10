@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.idea\\.idea.API_CAMADAS.dir",
+    "\\.idea\\.idea.API_CAMADAS.dir\\.idea"
   ],
-  "SelectedNode": "\\CRUD_ESTUDANTES.csproj",
+  "SelectedNode": "\\Properties",
   "PreviewInSolutionExplorer": false
 }
