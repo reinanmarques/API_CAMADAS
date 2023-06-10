@@ -7,13 +7,16 @@ C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTU
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.pdb
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Humanizer.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -25,9 +28,11 @@ C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -69,8 +74,3 @@ C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\refint\CR
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.pdb
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.genruntimeconfig.cache
 C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\obj\Debug\net7.0\ref\CRUD_ESTUDANTES.dll
-C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Humanizer.dll
-C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\wesle\OneDrive\Área de Trabalho\API_CAMADAS\bin\Debug\net7.0\System.CodeDom.dll

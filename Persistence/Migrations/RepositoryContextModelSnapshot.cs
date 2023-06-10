@@ -22,16 +22,26 @@ namespace CRUD_ESTUDANTES.Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CRUD_ESTUDANTES.Entities.Course", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Courses");
+                });
+
             modelBuilder.Entity("CRUD_ESTUDANTES.Entities.Student", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Course")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -51,6 +61,21 @@ namespace CRUD_ESTUDANTES.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Students");
+                });
+
+            modelBuilder.Entity("CRUD_ESTUDANTES.Entities.Course", b =>
+                {
+                    b.HasOne("CRUD_ESTUDANTES.Entities.Student", null)
+                        .WithOne("Course")
+                        .HasForeignKey("CRUD_ESTUDANTES.Entities.Course", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("CRUD_ESTUDANTES.Entities.Student", b =>
+                {
+                    b.Navigation("Course")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

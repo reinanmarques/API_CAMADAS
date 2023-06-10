@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using CRUD_ESTUDANTES.Entities;
 
 namespace CRUD_ESTUDANTES.DTO.Request;
 
 public class StudentInsert
 {
-    public StudentInsert(string name, string course)
+    public StudentInsert(string name, Course course)
     {
         Name = name;
         Course = course;
@@ -13,7 +14,7 @@ public class StudentInsert
     [Required(ErrorMessage = "Preencha o nome")]
     public string Name { get; set; } 
     [Required(ErrorMessage = "Preencha o curso")]
-    public string Course { get; set; }
+    public Course Course { get; set; }
     [Required(ErrorMessage = "Preencha o email")]
     public string Email { get; set; }
     [Required(ErrorMessage = "Preencha o password")]

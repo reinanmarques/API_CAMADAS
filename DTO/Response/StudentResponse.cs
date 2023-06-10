@@ -19,7 +19,7 @@ public class StudentResponse
     [NotNull]
     public string Name { get; set; }
     [NotNull]
-    public string Course { get; set; } 
+    public Course Course { get; set; } 
     public string Email { get; set; } 
     public string Password { get; set; } 
     
