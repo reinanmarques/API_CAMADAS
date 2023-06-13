@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -38,6 +39,9 @@
     <Compile Remove="MIgrations\20230607123647_adicionandoCampos.Designer.cs" />
     <Compile Remove="MIgrations\**" />
     <Compile Remove="Data\Migrations\**" />
+    <Compile Remove="Persistence\Migrations\20230612125222_IntialMigrations.cs" />
+    <Compile Remove="Persistence\Migrations\20230612125222_IntialMigrations.Designer.cs" />
+    <Compile Remove="Persistence\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +50,7 @@
     <EmbeddedResource Remove="MyApi\**" />
     <EmbeddedResource Remove="MIgrations\**" />
     <EmbeddedResource Remove="Data\Migrations\**" />
+    <EmbeddedResource Remove="Persistence\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +59,7 @@
     <Content Remove="MyApi\**" />
     <Content Remove="MIgrations\**" />
     <Content Remove="Data\Migrations\**" />
+    <Content Remove="Persistence\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -62,6 +68,7 @@
     <None Remove="MyApi\**" />
     <None Remove="MIgrations\**" />
     <None Remove="Data\Migrations\**" />
+    <None Remove="Persistence\**" />
   </ItemGroup>
 
 </Project>

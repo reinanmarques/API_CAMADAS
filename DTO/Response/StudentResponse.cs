@@ -8,7 +8,6 @@ public class StudentResponse
     public StudentResponse(Student student)
     {
         Id = student.Id;
-        
         Name = student.Name;
         Course = student.Course;
         Email = student.Email;
@@ -16,9 +15,7 @@ public class StudentResponse
     }
 
     public Guid Id { get; set; }
-    [NotNull]
     public string Name { get; set; }
-    [NotNull]
     public Course Course { get; set; } 
     public string Email { get; set; } 
     public string Password { get; set; } 

@@ -1,4 +1,5 @@
-using CRUD_ESTUDANTES.Entities;
+
+using CRUD_ESTUDANTES.Data;
 using CRUD_ESTUDANTES.Persistence;
 using CRUD_ESTUDANTES.Repositories;
 using CRUD_ESTUDANTES.Repositories.Contract;
@@ -8,8 +9,9 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
-var conncetionString = builder.Configuration.GetConnectionString("DevCasa");
+var conncetionString = builder.Configuration.GetConnectionString("CrudEstudentCs");
 builder.Services.AddDbContext<RepositoryContext>(o => o.UseSqlServer(conncetionString));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -22,7 +24,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())    

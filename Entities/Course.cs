@@ -8,6 +8,7 @@ public class Course
         public Course(string name)
     {
         Id = Guid.NewGuid();
+        Console.WriteLine(Id);
         Name = name;
     }
 }

@@ -1,7 +1,7 @@
 ﻿using CRUD_ESTUDANTES.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CRUD_ESTUDANTES.Persistence;
+namespace CRUD_ESTUDANTES.Data;
 
     public class RepositoryContext: DbContext
     {
@@ -43,10 +43,9 @@ namespace CRUD_ESTUDANTES.Persistence;
                 .IsRequired(true)
                 .HasMaxLength(200);
 
-                e.HasOne(es => es.Course)
-                    .WithOne()
-                    .HasForeignKey<Course>(co => co.Id)
-                    .IsRequired(true);
+                builder.Entity<Student>().HasOne<Course>(es => es.Course)
+                    .WithMany()
+                    .HasForeignKey(s => s.Id);
 
         });
 

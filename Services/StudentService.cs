@@ -1,4 +1,5 @@
-﻿using CRUD_ESTUDANTES.DTO.Request;
+﻿using AutoMapper;
+using CRUD_ESTUDANTES.DTO.Request;
 using CRUD_ESTUDANTES.DTO.Response;
 using CRUD_ESTUDANTES.Entities;
 using CRUD_ESTUDANTES.Repositories.Contract;
@@ -8,31 +9,26 @@ namespace CRUD_ESTUDANTES.Services;
 
 public class StudentService : IStudentService
 {
+
+    private IMapper _mapper;
     private IStudentRepository StudentRepository { get; set; }
 
-    public StudentService(IStudentRepository studentRepository)
+    public StudentService(IStudentRepository studentRepository, IMapper mapper)
     {
         StudentRepository = studentRepository;
+        _mapper = mapper;
     }
 
     public List<StudentResponse> GetAll()
     {
-        try
-        {
-            return StudentRepository
-                .GetAll()
-                .Result
-                .ConvertAll(std => new StudentResponse(std));
-        }
-        catch (Exception e)
-        {
-            throw new Exception(e.Message);
-        }
+        List<Student> students = StudentRepository
+            .GetAllWithCourse().Result;
+
+        return students.ConvertAll(s => new StudentResponse(s));
     }
 
     public StudentResponse GetById(Guid id)
     {
-
         try
         { 
             Student? entity = StudentRepository.GetById(id).Result;

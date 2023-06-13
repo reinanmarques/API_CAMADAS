@@ -6,7 +6,7 @@ namespace CRUD_ESTUDANTES.Services.Contract;
 
 public interface IStudentService
 {
-    List<StudentResponse> GetAll();
+    public List<StudentResponse> GetAll();
     StudentResponse GetById(Guid id);
     StudentResponse Save(StudentInsert? dto);
     StudentResponse Update(StudentUpdate? dto, Guid id);

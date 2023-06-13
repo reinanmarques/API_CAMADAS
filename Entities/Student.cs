@@ -11,6 +11,7 @@ public class Student
     public Student(string name, Course course, string email, string password)
     {
         this.Id = Guid.NewGuid();
+        Console.WriteLine(Id);
         this.Name = name;
         this.Course = course;
         this.Email = email;
