@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace CRUD_ESTUDANTES.Persistence.Migrations
+namespace CRUD_ESTUDANTES.Migrations
 {
     /// <inheritdoc />
-    public partial class ChangesModel : Migration
+    public partial class MyFirstMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

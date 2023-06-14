@@ -1,6 +1,5 @@
 
 using CRUD_ESTUDANTES.Data;
-using CRUD_ESTUDANTES.Persistence;
 using CRUD_ESTUDANTES.Repositories;
 using CRUD_ESTUDANTES.Repositories.Contract;
 using CRUD_ESTUDANTES.Services;
@@ -24,7 +23,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 

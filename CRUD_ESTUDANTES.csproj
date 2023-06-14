@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -7,68 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Remove="Models\**" />
-    <Compile Remove="Controllers\WeatherForecastController.cs" />
-    <Compile Remove="WeatherForecast.cs" />
-    <Compile Remove="Controllers\CourseController.cs" />
-    <Compile Remove="Mocks\**" />
-    <Compile Remove="MyApi\WebApi\Controllers\CourseController.cs" />
-    <Compile Remove="MyApi\WebApi\Controllers\WeatherForecastController.cs" />
-    <Compile Remove="MyApi\**" />
-    <Compile Remove="Repositories\Contract\StudentRepository.cs" />
-    <Compile Remove="Data\CrudDbContext.cs" />
-    <Compile Remove="MIgrations\20230606142407_InitialCreate.cs" />
-    <Compile Remove="MIgrations\20230606142407_InitialCreate.Designer.cs" />
-    <Compile Remove="MIgrations\RepositoryContextModelSnapshot.cs" />
-    <Compile Remove="MIgrations\20230606175614_First.cs" />
-    <Compile Remove="MIgrations\20230606175614_First.Designer.cs" />
-    <Compile Remove="MIgrations\20230606180119_InitialCreate.cs" />
-    <Compile Remove="MIgrations\20230606180119_InitialCreate.Designer.cs" />
-    <Compile Remove="MIgrations\20230607123647_adicionandoCampos.cs" />
-    <Compile Remove="MIgrations\20230607123647_adicionandoCampos.Designer.cs" />
-    <Compile Remove="MIgrations\**" />
-    <Compile Remove="Data\Migrations\**" />
-    <Compile Remove="Persistence\Migrations\20230612125222_IntialMigrations.cs" />
-    <Compile Remove="Persistence\Migrations\20230612125222_IntialMigrations.Designer.cs" />
-    <Compile Remove="Persistence\**" />
-  </ItemGroup>
+
 
   <ItemGroup>
-    <EmbeddedResource Remove="Models\**" />
-    <EmbeddedResource Remove="Mocks\**" />
-    <EmbeddedResource Remove="MyApi\**" />
-    <EmbeddedResource Remove="MIgrations\**" />
-    <EmbeddedResource Remove="Data\Migrations\**" />
-    <EmbeddedResource Remove="Persistence\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="Models\**" />
-    <Content Remove="Mocks\**" />
-    <Content Remove="MyApi\**" />
-    <Content Remove="MIgrations\**" />
-    <Content Remove="Data\Migrations\**" />
-    <Content Remove="Persistence\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Models\**" />
-    <None Remove="Mocks\**" />
-    <None Remove="MyApi\**" />
-    <None Remove="MIgrations\**" />
-    <None Remove="Data\Migrations\**" />
-    <None Remove="Persistence\**" />
   </ItemGroup>
 
 </Project>

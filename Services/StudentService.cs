@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿
 using CRUD_ESTUDANTES.DTO.Request;
 using CRUD_ESTUDANTES.DTO.Response;
 using CRUD_ESTUDANTES.Entities;
@@ -10,13 +10,11 @@ namespace CRUD_ESTUDANTES.Services;
 public class StudentService : IStudentService
 {
 
-    private IMapper _mapper;
     private IStudentRepository StudentRepository { get; set; }
 
-    public StudentService(IStudentRepository studentRepository, IMapper mapper)
+    public StudentService(IStudentRepository studentRepository)
     {
         StudentRepository = studentRepository;
-        _mapper = mapper;
     }
 
     public List<StudentResponse> GetAll()
