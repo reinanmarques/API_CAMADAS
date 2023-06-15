@@ -11,4 +11,6 @@ public class Course
         Console.WriteLine(Id);
         Name = name;
     }
+
+    public Course() {  }
 }

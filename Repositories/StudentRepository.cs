@@ -7,17 +7,16 @@ namespace CRUD_ESTUDANTES.Repositories;
 
 public class StudentRepository : BaseRepository<Student> ,IStudentRepository
 {
-  private  readonly RepositoryContext repoContext;
+  private  readonly DbSet<Student> _dbset;
   
-  public StudentRepository(RepositoryContext repoContext) : base(repoContext)
+  public StudentRepository(ProjectContext projectContext) : base(projectContext)
   {
-      this.repoContext = repoContext;
+      _dbset = projectContext.Set<Student>();
   }
 
   public async Task<List<Student>> GetAllWithCourse()
     {
-        return await repoContext.Students
-            .Include(s => s.Course)
+        return await _dbset.Include(s => s.Course)
             .ToListAsync();
     }
 }

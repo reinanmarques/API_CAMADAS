@@ -4,19 +4,18 @@ using CRUD_ESTUDANTES.DTO.Response;
 using CRUD_ESTUDANTES.Entities;
 using CRUD_ESTUDANTES.Repositories.Contract;
 using CRUD_ESTUDANTES.Services.Contract;
+using System.Diagnostics;
 
 namespace CRUD_ESTUDANTES.Services;
 
 public class StudentService : IStudentService
 {
-
     private IStudentRepository StudentRepository { get; set; }
 
     public StudentService(IStudentRepository studentRepository)
     {
         StudentRepository = studentRepository;
     }
-
     public List<StudentResponse> GetAll()
     {
         List<Student> students = StudentRepository
@@ -57,17 +56,19 @@ public class StudentService : IStudentService
     {
         try
         {
+
             Student? entity = StudentRepository.GetById(id).Result;
-            
                 entity.Name = dto.Name;
-                entity.Course = dto.Course;
+                entity.Course = new Course();
                 entity = StudentRepository.Update(entity).Result;
                 return new StudentResponse(entity);
             
         }
         catch (Exception e)
         {
+            Debug.WriteLine(e.Message);
             throw new Exception("Não atualizado");
+            
         }
  
     }

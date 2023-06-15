@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CRUD_ESTUDANTES.Data;
 
-    public class RepositoryContext: DbContext
+    public class ProjectContext: DbContext
     {
-        public RepositoryContext(DbContextOptions<RepositoryContext> options)
+        public ProjectContext(DbContextOptions<ProjectContext> options)
             :base(options)
         {
         }

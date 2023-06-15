@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var conncetionString = builder.Configuration.GetConnectionString("CrudEstudentCs");
-builder.Services.AddDbContext<RepositoryContext>(o => o.UseSqlServer(conncetionString));
+builder.Services.AddDbContext<ProjectContext>(o => o.UseSqlServer(conncetionString));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

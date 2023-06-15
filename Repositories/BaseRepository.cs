@@ -8,11 +8,11 @@ namespace CRUD_ESTUDANTES.Repositories;
 public class BaseRepository<T> : IBaseRepository<T> where T : class
 {
 
-    protected RepositoryContext RepoContext { get; set; }
+    protected ProjectContext RepoContext { get; set; }
 
-    public BaseRepository(RepositoryContext repoContext)
+    public BaseRepository(ProjectContext projectContext)
     {
-        this.RepoContext = repoContext;
+        this.RepoContext = projectContext;
     }
 
 

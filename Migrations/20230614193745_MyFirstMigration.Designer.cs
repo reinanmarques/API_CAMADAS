@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CRUD_ESTUDANTES.Migrations
 {
-    [DbContext(typeof(RepositoryContext))]
+    [DbContext(typeof(ProjectContext))]
     [Migration("20230614193745_MyFirstMigration")]
     partial class MyFirstMigration
     {
