@@ -2,6 +2,7 @@
 using CRUD_ESTUDANTES.Data;
 using CRUD_ESTUDANTES.Repositories.Contract;
 using Microsoft.EntityFrameworkCore;
+using System.Runtime.CompilerServices;
 
 namespace CRUD_ESTUDANTES.Repositories;
 

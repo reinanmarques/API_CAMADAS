@@ -18,9 +18,12 @@ public class StudentResponse
     public string Name { get; set; }
     public Course Course { get; set; } 
     public string Email { get; set; } 
-    public string Password { get; set; } 
-    
-    
+    public string Password { get; set; }
+
+    public StudentResponse()
+    {
+
+    }
     
     
 }

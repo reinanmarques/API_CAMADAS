@@ -74,3 +74,5 @@ C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\refint\CRUD_ESTUDANTES.
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.pdb
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.genruntimeconfig.cache
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\ref\CRUD_ESTUDANTES.dll
+C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

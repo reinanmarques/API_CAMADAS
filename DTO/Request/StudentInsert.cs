@@ -5,10 +5,9 @@ namespace CRUD_ESTUDANTES.DTO.Request;
 
 public class StudentInsert
 {
-    public StudentInsert(string name, Course course)
+    public StudentInsert()
     {
-        Name = name;
-        Course = course;
+      
     }
 
     [Required(ErrorMessage = "Preencha o nome")]

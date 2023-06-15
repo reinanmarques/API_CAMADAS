@@ -1,4 +1,5 @@
 ﻿
+using AutoMapper;
 using CRUD_ESTUDANTES.DTO.Request;
 using CRUD_ESTUDANTES.DTO.Response;
 using CRUD_ESTUDANTES.Entities;
@@ -11,17 +12,19 @@ namespace CRUD_ESTUDANTES.Services;
 public class StudentService : IStudentService
 {
     private IStudentRepository StudentRepository { get; set; }
+    private  readonly IMapper _mapper;
 
-    public StudentService(IStudentRepository studentRepository)
+    public StudentService(IStudentRepository studentRepository, IMapper mapper)
     {
         StudentRepository = studentRepository;
+        _mapper = mapper;
     }
     public List<StudentResponse> GetAll()
     {
         List<Student> students = StudentRepository
             .GetAllWithCourse().Result;
 
-        return students.ConvertAll(s => new StudentResponse(s));
+        return students.ConvertAll(std => _mapper.Map<StudentResponse>(std));
     }
 
     public StudentResponse GetById(Guid id)
@@ -29,7 +32,7 @@ public class StudentService : IStudentService
         try
         { 
             Student? entity = StudentRepository.GetById(id).Result;
-            return new StudentResponse(entity);
+            return _mapper.Map<StudentResponse>(entity);
         }
         catch (Exception e)
         {
@@ -41,10 +44,10 @@ public class StudentService : IStudentService
     public StudentResponse Save(StudentInsert? dto)
     {
         try
-        { 
-            Student student = new Student(dto.Name, dto.Course, dto.Email, dto.Password);
+        {
+            Student student = _mapper.Map<Student>(dto);
            student = StudentRepository.Save(student).Result;
-           return new StudentResponse(student);
+           return _mapper.Map<StudentResponse>(student);
         }
         catch (Exception e)
         {
@@ -58,11 +61,9 @@ public class StudentService : IStudentService
         {
 
             Student? entity = StudentRepository.GetById(id).Result;
-                entity.Name = dto.Name;
-                entity.Course = new Course();
-                entity = StudentRepository.Update(entity).Result;
-                return new StudentResponse(entity);
-            
+            entity.Name = dto.Name;
+            entity=  StudentRepository.Update(entity).Result;
+            return _mapper.Map<StudentResponse>(entity);
         }
         catch (Exception e)
         {
