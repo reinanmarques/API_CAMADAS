@@ -6,7 +6,6 @@ C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.csproj.
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\appsettings.json
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.exe
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.deps.json
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\CRUD_ESTUDANTES.runtimeconfig.json
@@ -76,3 +75,4 @@ C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\CRUD_ESTUDANTES.genrunt
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\obj\Debug\net7.0\ref\CRUD_ESTUDANTES.dll
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\SEDUC-SUDS\Desktop\API_CAMADAS\bin\Debug\net7.0\appsettings.json

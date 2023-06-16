@@ -30,7 +30,7 @@ public class StudentsController : ControllerBase
     [HttpPost]
     public IActionResult Save([FromBody] StudentInsert? input)
     {
-        return Ok(_studentService.Save(input));
+        return Created("estudante criado com sucesso",_studentService.Save(input));
     }
     
     [HttpPut("{id}")]
