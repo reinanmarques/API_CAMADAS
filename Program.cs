@@ -1,6 +1,5 @@
 
 using CRUD_ESTUDANTES.Data;
-using CRUD_ESTUDANTES.Data.Mapping;
 using CRUD_ESTUDANTES.Repositories;
 using CRUD_ESTUDANTES.Repositories.Contract;
 using CRUD_ESTUDANTES.Services;
@@ -28,7 +27,6 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddAutoMapper(typeof(StudentProfile));
 
 var app = builder.Build();
 

@@ -31,7 +31,7 @@ namespace CRUD_ESTUDANTES.Controllers
         [HttpPost]
         public IActionResult Save(CourseInsert course)
         {
-            return Created("curso criado com sucesso", _courseService.Save(course)); 
+            return Created("curso criado com sucesso", _courseService.Save(course));
         }
             
         [HttpPut]

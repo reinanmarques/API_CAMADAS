@@ -1,82 +1,81 @@
-﻿
-using AutoMapper;
-using CRUD_ESTUDANTES.DTO.Request;
+﻿using CRUD_ESTUDANTES.DTO.Request;
 using CRUD_ESTUDANTES.DTO.Response;
 using CRUD_ESTUDANTES.Entities;
 using CRUD_ESTUDANTES.Repositories.Contract;
 using CRUD_ESTUDANTES.Services.Contract;
 using System.Diagnostics;
 
-namespace CRUD_ESTUDANTES.Services;
-
-public class StudentService : IStudentService
+namespace CRUD_ESTUDANTES.Services
 {
-    private IStudentRepository StudentRepository { get; set; }
-    private  readonly IMapper _mapper;
 
-    public StudentService(IStudentRepository studentRepository, IMapper mapper)
+    public class StudentService : IStudentService
     {
-        StudentRepository = studentRepository;
-        _mapper = mapper;
-    }
-    public List<StudentResponse> GetAll()
-    {
-        List<Student> students = StudentRepository
-            .GetAllWithCourse().Result;
+        private IStudentRepository StudentRepository { get; set; }
 
-        return students.ConvertAll(std => _mapper.Map<StudentResponse>(std));
-    }
-
-    public StudentResponse GetById(Guid id)
-    {
-        try
-        { 
-            Student? entity = StudentRepository.GetById(id).Result;
-            return _mapper.Map<StudentResponse>(entity);
-        }
-        catch (Exception e)
+        public StudentService(IStudentRepository studentRepository)
         {
-            throw new Exception("Entity Not Found");
+            StudentRepository = studentRepository ?? throw new ArgumentNullException(nameof(studentRepository));
         }
-        
-    }
-
-    public StudentResponse Save(StudentInsert? dto)
-    {
-        try
+        public List<StudentResponse> GetAll()
         {
-            Student student = _mapper.Map<Student>(dto);
-           student = StudentRepository.Save(student).Result;
-           return _mapper.Map<StudentResponse>(student);
-        }
-        catch (Exception e)
-        {
-            throw new Exception(e.Message);
-        }
-    }
+            List<Student> students = StudentRepository
+                .GetAllWithCourse().Result;
 
-    public StudentResponse Update(StudentUpdate? dto, Guid id)
-    {
-        try
-        {
-
-            Student? entity = StudentRepository.GetById(id).Result;
-            entity.Name = dto.Name;
-            entity=  StudentRepository.Update(entity).Result;
-            return _mapper.Map<StudentResponse>(entity);
+            return students.ConvertAll(std => new StudentResponse(std));
         }
-        catch (Exception e)
-        {
-            Debug.WriteLine(e.Message);
-            throw new Exception("Não atualizado");
-            
-        }
- 
-    }
 
-    public void Delete(Guid id)
-    {
-        Student? student = StudentRepository.GetById(id).Result;
-        if (student != null) StudentRepository.Delete(student);
+        public StudentResponse GetById(Guid id)
+        {
+            try
+            {
+                Student? entity = StudentRepository.GetById(id).Result;
+                return new StudentResponse(entity);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Entity Not Found");
+            }
+
+        }
+
+        public StudentResponse Save(StudentInsert? dto)
+        {
+            try
+            {
+                var course = new Course(dto.Course.Id, dto.Course.Name);
+                Student student = new Student(dto.Name, course, dto.Email, dto.Password);
+                student = StudentRepository.Save(student).Result;
+                return new StudentResponse(student);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public StudentResponse Update(StudentUpdate? dto, Guid id)
+        {
+            try
+            {
+
+                Student? entity = StudentRepository.GetById(id).Result;
+                entity.Name = dto.Name;
+                entity = StudentRepository.Update(entity).Result;
+                return new StudentResponse(entity);
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e.Message);
+                throw new Exception("Não atualizado");
+
+            }
+
+        }
+
+        public void Delete(Guid id)
+        {
+            Student? student = StudentRepository.GetById(id).Result;
+            if (student != null) StudentRepository.Delete(student);
+        }
     }
 }

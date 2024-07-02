@@ -5,5 +5,15 @@
 
         public Guid Id { get; set; }
         public string Name{ get; set; }
+
+        public CourseResponse(string name)
+        {
+            Name = name;
+        }
+
+        public CourseResponse(Guid id, string name){
+            Id = id;
+            Name = name;
+        }
     }
 }

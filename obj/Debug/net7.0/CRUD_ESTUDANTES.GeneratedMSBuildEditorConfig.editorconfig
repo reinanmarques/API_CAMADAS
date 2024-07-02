@@ -1,0 +1,9 @@
+is_global = true
+build_property.RootNamespace = CRUD_ESTUDANTES
+build_property.RootNamespace = CRUD_ESTUDANTES
+build_property.ProjectDir = D:\Projects\BackEnd\Csharp\api_students\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projects\BackEnd\Csharp\api_students
+build_property._RazorSourceGeneratorDebug = 

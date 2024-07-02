@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿
 using CRUD_ESTUDANTES.DTO.Request;
 using CRUD_ESTUDANTES.DTO.Response;
 using CRUD_ESTUDANTES.Entities;
@@ -12,32 +12,30 @@ namespace CRUD_ESTUDANTES.Services
     {
 
         private readonly ICourseRepository _course;
-        private readonly IMapper _mapper;
 
-        public CourseService(ICourseRepository course, IMapper mapper) 
+        public CourseService(ICourseRepository course) 
         {
             _course = course;
-            _mapper = mapper;
         }
 
 
         public List<CourseResponse> GetAll()
         {
-            return _course. GetAll().Result.ConvertAll(co => _mapper.Map<CourseResponse>(co));
+            return _course.GetAll().Result.ConvertAll(co => new CourseResponse(co.Id, co.Name));
         }
 
         public CourseResponse GetById(Guid id)
         {
             var course = _course.GetById(id).Result;
-            return _mapper.Map<CourseResponse>(course);
+            return new CourseResponse(course.Id, course.Name);
             
         }
 
         public CourseResponse Save(CourseInsert? dto)
         {
-            var course = _mapper.Map<Course>(dto);
+            var course = new Course(dto.Name);
             course = _course.Save(course).Result;
-            return _mapper.Map<CourseResponse>(course);
+            return new CourseResponse(course.Id, course.Name);
 
         }
 
@@ -46,7 +44,7 @@ namespace CRUD_ESTUDANTES.Services
             var course = _course.GetById(id).Result;
             course.Name = dto.Name;
             course = _course.Update(course).Result;
-            return _mapper.Map<CourseResponse>(course);
+            return new CourseResponse(course.Id, course.Name);
         }
 
 
